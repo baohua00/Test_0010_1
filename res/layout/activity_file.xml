@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.test_0010_1.MainActivity" 
+    android:orientation="vertical">
+    
+    <TextView
+        android:id="@+id/file_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textSize="12sp" />
+ 
+    <View
+        android:id="@+id/file_path_line"
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        />
+ 
+    <TextView
+        android:id="@+id/file_return"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textSize="12sp" 
+        />
+ 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        />
+ 
+    <ListView
+        android:id="@+id/file_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="0.3dp"
+        android:listSelector="@null"
+        android:scrollbars="none" />
+    
+</LinearLayout>
